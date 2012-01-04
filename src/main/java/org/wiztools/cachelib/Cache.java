@@ -1,7 +1,7 @@
 package org.wiztools.cachelib;
 
 /**
- *
+ * Cache abstraction interface.
  * @author subwiz
  */
 public interface Cache {
