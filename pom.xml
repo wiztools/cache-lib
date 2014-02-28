@@ -25,9 +25,9 @@
     </licenses>
     
     <scm>
-        <connection>scm:svn:http://cache-lib.googlecode.com/svn/cache-lib/trunk/</connection>
-        <developerConnection>scm:svn:https://cache-lib.googlecode.com/svn/cache-lib/trunk/</developerConnection>
-        <url>http://code.google.com/p/cache-lib/source/browse/</url>
+        <connection>scm:git:https://github.com/wiztools/cache-lib.git</connection>
+        <developerConnection>scm:git:https://github.com/wiztools/cache-lib.git</developerConnection>
+        <url>https://github.com/wiztools/cache-lib</url>
     </scm>
 
     <properties>
@@ -60,13 +60,6 @@
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <configuration>
-                    <tagBase>https://cache-lib.googlecode.com/svn/cache-lib/tags</tagBase>
                 </configuration>
             </plugin>
         </plugins>
