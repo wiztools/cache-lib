@@ -2,6 +2,8 @@
 
 The library aims to provide a simple abstraction contract for Cache implementations. Actually, it is so simple that the library defines only two interfaces: [Cache](https://github.com/wiztools/cache-lib/blob/master/src/main/java/org/wiztools/cachelib/Cache.java) and [CacheManager](https://github.com/wiztools/cache-lib/blob/master/src/main/java/org/wiztools/cachelib/CacheManager.java).
 
+A sample [EhCache](http://ehcache.org/) implementation is provided in [this GitHub project](https://github.com/wiztools/cache-lib-ehcache-impl).
+
 ## Maven Dependency
 
 	<dependency>
